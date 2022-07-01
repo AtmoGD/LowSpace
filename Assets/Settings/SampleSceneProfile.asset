@@ -18,7 +18,7 @@ MonoBehaviour:
     m_Value: 1
   intensity:
     m_OverrideState: 1
-    m_Value: 1
+    m_Value: 0.3
   scatter:
     m_OverrideState: 0
     m_Value: 0.7
@@ -52,22 +52,22 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 899c54efeace73346a0a16faa3afe726, type: 3}
   m_Name: Vignette
   m_EditorClassIdentifier: 
-  active: 1
+  active: 0
   color:
-    m_OverrideState: 0
-    m_Value: {r: 0, g: 0, b: 0, a: 1}
+    m_OverrideState: 1
+    m_Value: {r: 0.47803098, g: 0.086908154, b: 0.8773585, a: 1}
   center:
-    m_OverrideState: 0
-    m_Value: {x: 0.5, y: 0.5}
+    m_OverrideState: 1
+    m_Value: {x: 0.5, y: 0.35}
   intensity:
     m_OverrideState: 1
-    m_Value: 0.25
+    m_Value: 1
   smoothness:
     m_OverrideState: 1
-    m_Value: 0.4
+    m_Value: 1
   rounded:
-    m_OverrideState: 0
-    m_Value: 0
+    m_OverrideState: 1
+    m_Value: 1
 --- !u!114 &-1308620071844175121
 MonoBehaviour:
   m_ObjectHideFlags: 3
@@ -86,10 +86,10 @@ MonoBehaviour:
     m_Value: 1
   gaussianStart:
     m_OverrideState: 1
-    m_Value: 500
+    m_Value: 900
   gaussianEnd:
     m_OverrideState: 1
-    m_Value: 2000
+    m_Value: 1000
   gaussianMaxRadius:
     m_OverrideState: 1
     m_Value: 1.5
@@ -163,14 +163,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   active: 1
   lift:
-    m_OverrideState: 0
-    m_Value: {x: 1, y: 1, z: 1, w: 0}
+    m_OverrideState: 1
+    m_Value: {x: 1, y: 0.97469854, z: 0.99844396, w: 0}
   gamma:
     m_OverrideState: 1
     m_Value: {x: 0.9960616, y: 0.9970466, z: 1, w: 0.031230576}
   gain:
-    m_OverrideState: 0
-    m_Value: {x: 1, y: 1, z: 1, w: 0}
+    m_OverrideState: 1
+    m_Value: {x: 1, y: 0.30774188, z: 0.95246905, w: 0}
 --- !u!114 &8885626920580200546
 MonoBehaviour:
   m_ObjectHideFlags: 3

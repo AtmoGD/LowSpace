@@ -9,6 +9,7 @@ public class ShipController : MonoBehaviour
 
     [SerializeField] private float speed = 10f;
     [SerializeField] private float minSpeed = 0f;
+    [SerializeField] private float lerpSpeed = 0.1f;
     [SerializeField] private float panSpeed = 10f;
     [SerializeField] private float tiltSpeed = 10f;
     [SerializeField] private float rollSpeed = 10f;
@@ -39,6 +40,7 @@ public class ShipController : MonoBehaviour
         float speedMultiplier = speedMultiplierCurve.Evaluate(rb.velocity.magnitude);
         movement = transform.forward * forward * speed * speedMultiplier;
         movement = movement.magnitude < minSpeed ? transform.forward * minSpeed : movement;
+        rb.velocity = Vector3.Lerp(rb.velocity, movement, lerpSpeed);
         rb.velocity = movement;
         // rb.AddForce(movement);
     }
