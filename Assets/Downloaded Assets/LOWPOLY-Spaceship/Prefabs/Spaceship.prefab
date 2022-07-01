@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 3873156926313782398}
   - component: {fileID: 9144030251778499809}
   m_Layer: 0
-  m_Name: SpaceShip
+  m_Name: Spaceship
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -60,11 +60,11 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: eb0e05a8e9690ce449dabac82aa2860c, type: 2}
-  - {fileID: 2100000, guid: ecee096f8f707654188a380b8c579803, type: 2}
-  - {fileID: 2100000, guid: 1b8ed29415c26c54db5b56c1fd9685fd, type: 2}
-  - {fileID: 2100000, guid: 2d30e453c269d154daa1e85749ba7ca7, type: 2}
-  - {fileID: 2100000, guid: 89f19d70fe768cd4880539a52171c3b1, type: 2}
+  - {fileID: 2100000, guid: 5703a7915c5d39c4f9a8285f35ae1781, type: 2}
+  - {fileID: 2100000, guid: 862e96f19455ef64a8aef91925c03dbb, type: 2}
+  - {fileID: 2100000, guid: 9033a8640d35d2f4cbd6e9543247d754, type: 2}
+  - {fileID: 2100000, guid: cd3e1aa76ac3b8b41a980e466dd6b343, type: 2}
+  - {fileID: 2100000, guid: d0aadfa55a3e3e54287e1c73d22f6112, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
