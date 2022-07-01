@@ -23,7 +23,7 @@ public class LevelGenerator : MonoBehaviour
             Vector3 spawnPosition = Random.insideUnitSphere * spawnRadius;
             spawnPosition += spawnPoint.position;
             int randomIndex = Random.Range(0, objects.Length);
-            Instantiate(objects[randomIndex], spawnPosition, Quaternion.identity);
+            Instantiate(objects[randomIndex], spawnPosition, Quaternion.identity, transform);
         }
     }
 }
